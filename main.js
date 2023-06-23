@@ -6,13 +6,17 @@ darkModeIcon.onclick = () => {
 };
 
 //header scroll toggle//
-window.onscroll = () => {
+window.addEventListener("scroll", () => {
   let header = document.querySelector(".header");
+  let menuIcon = document.querySelector("#menu-icon");
+  let navbar = document.querySelector(".navbar");
 
   header.classList.toggle("sticky", window.scrollY > 100);
-};
+  menuIcon.classList.remove("bx-x");
+  navbar.classList.remove("active");
+});
 
-//==SROLL SECTION ACTIVE LINKS====//
+//==SCROLL SECTION ACTIVE LINKS====//
 let sections = document.querySelectorAll("section");
 let navLinks = document.querySelectorAll("header nav a");
 
@@ -42,3 +46,18 @@ menuIcon.onclick = () => {
   menuIcon.classList.toggle("bx-x");
   navbar.classList.toggle("active");
 };
+ScrollReveal({
+  reset: true,
+  duration: 2000,
+  delay: 200,
+});
+
+ScrollReveal().reveal(".home-content, .heading", { origin: "top" });
+ScrollReveal().reveal(
+  ".home-img img, .services-container, .portfolio-box, .contact form",
+  { origin: "buttom" }
+);
+ScrollReveal().reveal(".home-content h1, .about-img img", { origin: "left" });
+ScrollReveal().reveal(".home-content h3, .home-content p,", {
+  origin: "right",
+});
