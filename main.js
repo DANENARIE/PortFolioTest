@@ -60,7 +60,7 @@ ScrollReveal().reveal(
   ", .services-container, .portfolio-box, .testimonial-wrapper, .contact form",
   { origin: "bottom" }
 );
-ScrollReveal().reveal(".home-content h1, .about-img img ", {
+ScrollReveal().reveal(".home-content h1, .imgbox img ", {
   origin: "left",
 });
 ScrollReveal().reveal(".home-content h3, .home-content p, .about-content ", {
