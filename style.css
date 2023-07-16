@@ -265,8 +265,8 @@ span {
   position: relative;
 }
 .imgbox {
-  height: 480px; /* Adjust the height to your desired size */
-  width: 1920px; /* Adjust the width to your desired size */
+  height: 480px;
+  width: 1920px;
   border-radius: 50%;
   overflow: hidden;
   border: 6px solid #fff;
@@ -317,6 +317,14 @@ span {
   cursor: pointer;
   margin-left: 50px;
 }
+.about #particles-js {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+
 /* Projects Container*/
 
 .portfolio {
