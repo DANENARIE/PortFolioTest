@@ -264,7 +264,7 @@ span {
   gap: 4rem;
   position: relative;
 }
-.imgbox {
+.about-img {
   height: 480px;
   width: 1920px;
   border-radius: 50%;
@@ -273,7 +273,7 @@ span {
   transition: transform 0.5s ease;
 }
 
-.imgbox img {
+.about-img img {
   height: 100%;
   width: 100%;
   border-radius: 50%;
@@ -282,11 +282,11 @@ span {
   transition: filter 0.5s ease;
 }
 
-.imgbox:hover {
+.about-img:hover {
   transform: scale(1.1);
 }
 
-.imgbox:hover img {
+.about-img:hover img {
   filter: grayscale(0%);
 }
 
