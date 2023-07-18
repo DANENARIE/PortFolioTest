@@ -437,6 +437,39 @@ span {
   margin-top: 2rem;
   cursor: pointer;
 }
+
+/*footer section */
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 2rem 7%;
+  background: var(--main-color);
+}
+.footer-text p {
+  font-size: 1.6rem;
+  color: white;
+}
+.footer-iconTop a {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.8rem;
+  background: white;
+  border-radius: 0.8rem;
+  border: 0.2rem solid var(--white-color);
+  outline: 0.2rem solid transparent;
+  transition: 0.5s ease;
+}
+.footer-iconTop a:hover {
+  outline-color: white;
+}
+.footer-iconTop a i {
+  font-size: 2.4rem;
+  color: #333;
+}
+
 /*footer section */
 .footer {
   display: flex;
