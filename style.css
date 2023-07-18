@@ -251,6 +251,7 @@ section {
   bottom: 0;
   right: 0;
   width: 100;
+  transform: translate(-10) scale(2);
 }
 span {
   color: var(--main-color);
@@ -298,7 +299,7 @@ span {
 .about-content h2 {
   text-align: left;
   line-height: 1.2;
-  padding-left: 80px;
+  padding-left: 50px;
 }
 
 .about-content h3 {
@@ -436,6 +437,7 @@ span {
   margin-top: 2rem;
   cursor: pointer;
 }
+/*footer section */
 .footer {
   display: flex;
   justify-content: space-between;
@@ -466,23 +468,31 @@ span {
   font-size: 2.4rem;
   color: #333;
 }
+
 /* break Point*/
-@media (max-width: 1200px) {
+@media (max-width: 428px) {
   html {
-    font-size: 55%;
+    font-size: 40%;
   }
-  .home .profession-container {
-    height: 85.8rem;
+
+  .home {
+    padding-bottom: 15rem;
   }
-  .home .profession-container .profession-box {
-    right: -12rem;
-    height: 85.8rem;
-  }
-  .home .profession-container.overlay {
-    right: -9rem;
+
+  .about-img {
+    width: 75vw;
   }
 }
-
+.home .profession-container {
+  height: 85.8rem;
+}
+.home .profession-container .profession-box {
+  right: -12rem;
+  height: 85.8rem;
+}
+.home .profession-container.overlay {
+  right: -9rem;
+}
 @media (max-width: 1024px) {
   .header {
     padding: 2rem 3%;
