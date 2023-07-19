@@ -16,7 +16,7 @@
   --bg-color: #fffefe;
   --text-color: #333;
   --main-color: #e9436c;
-  --white-color: #976c73;
+  --white-color: #bb6170;
   --shadow-color: tba(0, 0, 0, 0.2);
 }
 .night-theme {
@@ -75,6 +75,7 @@ body {
   color: var(--white-color);
   font-weight: 500;
   margin-right: 3.5rem;
+  font-weight: 620;
 }
 .header.sticky.navbar a {
   color: var(--text-color);

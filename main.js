@@ -64,3 +64,8 @@ ScrollReveal().reveal(".home-content h1, .about-img img ", { origin: "left" });
 ScrollReveal().reveal(".home-content h3, .home-content p, .about-content ", {
   origin: "right",
 });
+
+function changeImage() {
+  var img = document.getElementById("dayimage");
+  img.src = "assets/nigtdayforest.png";
+}
